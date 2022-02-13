@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vh;
+    overflow-x: hidden;
+}
+/*-----------HEADER----------*/
+.header {
+	padding: 50px 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #284b63;
+	column-gap: 30px;
+}
+.header-title {
+    font-size: 50px;
+    font-weight: 900;
+    color: ##549da0;
+}
+.header-paragraph {
+	color: #549da0;
+    font-size: 20px; 
+}
+.header-button {
+    padding: 15px 25px;
+    font-size: 16px;
+    background-color: #549da0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media (max-width: 992px) {
+    .header-title {
+        font-size: 40px;
+        text-align: center;
+    }
+    .header-paragraph {
+        font-size: 18px;
+    }
+}
+@media (max-width: 767px) {
+    .header-title {
+        font-size: 30px;
+    }
+    .header-paragraph {
+        font-size: 16px;
+    }
+}
+/*========== FEATURES ===========*/
+.Moitié {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 150px;
+    grid-row-gap: 20px;
+    flex-wrap: wrap;
+}
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-row-gap: : 30px;
+    min-width: 250px;
+}
+.feature-icon {
+    font-size: 100px;
+    color: #284b63;
+}
+.feature-text {
+    color: #333;
+}
+/*========== TESTIMONIALS ===========*/
+.avant {
+    padding: 30px 0;
+    background-color: #549da0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+.content {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.sentence {
+    font-size: 18px;
+    font-style: italic;
+}
+/*========== FOOTER ===========*/
+.footer {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #353535;
+}
+.fin {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.fin a {
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+.paragraph-final {
+    color: rgb(156, 156, 156);
+}
